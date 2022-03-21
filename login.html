@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="img/logo.png" class="logo" alt="logo_new_way"></a>
+    
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="arts.html">Artistas</a></li>
+                <li><a href="us.html">Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li id="icon"><a href="https://www.instagram.com/newwaycanarias/?hl=es"><i class='bx bxl-instagram-alt'></i></a></li>
+                <li id="icon"><a href="https://mobile.twitter.com/newwaycanarias"><i class='bx bxl-twitter'></i></a></li>
+                <li id="icon"><a href="https://es-es.facebook.com/NewWayCanarias/"><i class='bx bxl-facebook-square'></i></a></li> 
+                <li id="icon"><a class="active" href="login.html"><i class='bx bx-desktop'></i></a></li> 
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="form_wrap">
+        <section class="side">
+            <img src="img/img.svg" alt="">
+        </section>
+
+        <section class="main">
+            <div class="login-container">
+                <p class="title">Bienvenido</p>
+                <div class="separator"></div>
+                <p class="welcome-message">Por favor, logueate para administrar las contrataciones</p>
+
+                <form method="post" class="login-form" action="login.php">
+                    <div class="form-control">
+                        <input type="text" id="usuario" value="usuario" placeholder="usuario">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-control">
+                        <input type="password"  id="contrasenia" value="contrasenia" placeholder="contraseña">
+                        <i class="fas fa-lock"></i>
+                    </div>
+
+                    <button class="submit">Iniciar Sesion</button>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <p>New Way Talent © 2022 New Way Management. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
